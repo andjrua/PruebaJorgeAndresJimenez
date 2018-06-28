@@ -1,0 +1,34 @@
+<div class="carrito">
+    <label for=""><img src="/Nueva/img/car.png"  width="20" alt="" srcset=""> Carrito de compras</label>
+    <ul class="list-group">
+        <li class="list-group-item" ng-repeat="producto in carrito">
+            {{producto.ref}}
+            <strong class="pull-right">{{producto.precio | currency}}</strong>
+        </li>
+    </ul>
+</div>
+</div>
+<div class="container">
+    <select ng-init="tipo" ng-model="formCtrl.comment.ropa" class="custom-select" required>
+        <option selected="">Tipo de ropa</option>
+        <option on-change="formCtrl.comment.ropa=1" value="camisa">Camisas formales</a>
+        </option>
+        <option on-change="formCtrl.comment.ropa=2" value="pantalon">Pantalones formales</option>
+        <option on-change="formCtrl.comment.ropa=3" value="chaqueta">Chaquetas</option>
+    </select>
+    <a href="#!/productos/{{formCtrl.comment.ropa}}" type="submit" class="btn btn-info">Ver producto</a>
+</div>
+<div class="container" >
+    <div ng-repeat="ropa in ropas">
+        <div class="prendas">
+            <h1>{{ropa.tipo | uppercase}}</h1>
+            <img src="img/{{ropa.ref}}.jpg" width="200" alt="">
+            <p class="margenp">Ref {{ropa.ref}}</p>
+            <p class="margenp">Price {{ropa.precio}}</p>
+            <button ng-click="comprar(ropa)" class="btn btn-info margenp">add</button>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <a href="#!/formulario" ng-click="formCtrl.toggle()" ng-hide="formCtrl.show" class="btn btn-primary">Realizar Compra</a>
+</div>

@@ -1,0 +1,31 @@
+<div>
+    <form name="compra" ng-submit="compra.$valid && formCtrl.newOrder()" novalidate>
+        <fieldset>
+            <div class="container1">
+                <legend>Custom forms</legend>
+            </div>
+            <div class="container1">
+                <div class="form-group formulario1">
+                    <input ng-model="formCtrl.comment.name" class="form-control" type="text" placeholder="Nombre" id="nombre" required>
+                    <input ng-model="formCtrl.comment.lastname" class="form-control" type="text" placeholder="Apellido" id="apellido" required>
+                    <select ng-model="formCtrl.comment.tipoident" class="custom-select" required>
+                        <option selected="">Tipo de documento</option>
+                        <option on-change="formCtrl.comment.tipoident=1" value="1">Cedula</option>
+                        <option on-change="formCtrl.comment.tipoident=2" value="2">NIT</option>
+                        <option on-change="formCtrl.comment.tipoident=3" value="3">Cedula extranjero</option>
+                    </select>
+                    <input ng-model="formCtrl.comment.ident" class="form-control" type="text" placeholder="N° Identificacion" id="identificacion"
+                        required>
+                </div>
+                <div class="formulario1">
+                    <input ng-model="formCtrl.comment.name" class="form-control" type="text" placeholder="Direccion" id="direccion" required>
+                    <input ng-model="formCtrl.comment.lastname" class="form-control" type="text" placeholder="Ciudad" id="ciudad" required>
+                </div>
+            </div>
+            <div class="container1">
+                <button type="submit" class="btn btn-success">Enviar</button>
+                <h5>Validacion: {{compra.$valid}}</h5>
+            </div>
+        </fieldset>
+    </form>
+</div>

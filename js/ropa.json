@@ -1,0 +1,108 @@
+[
+  {
+    "id": "001",
+    "ref": "ckl-01",
+    "cantidad": 10,
+    "tipo": "chaqueta",
+    "precio": 500
+  },
+  {
+    "id": "002",
+    "ref": "ckl-02",
+    "cantidad": 10,
+    "tipo": "chaqueta",
+    "precio": 500
+  },
+  {
+    "id": "003",
+    "ref": "ckl-03",
+    "cantidad": 10,
+    "tipo": "chaqueta",
+    "precio": 500
+  },
+  {
+    "id": "004",
+    "ref": "ckl-04",
+    "cantidad": 10,
+    "tipo": "chaqueta",
+    "precio": 500
+  },
+  {
+    "id": "005",
+    "ref": "ckl-05",
+    "cantidad": 10,
+    "tipo": "chaqueta",
+    "precio": 500
+  },
+  {
+    "id": "006",
+    "ref": "ckl-06",
+    "cantidad": 10,
+    "tipo": "camisa",
+    "precio": 500
+  },
+  {
+    "id": "007",
+    "ref": "ckl-07",
+    "cantidad": 10,
+    "tipo": "camisa",
+    "precio": 500
+  },
+  {
+    "id": "008",
+    "ref": "ckl-08",
+    "cantidad": 10,
+    "tipo": "camisa",
+    "precio": 500
+  },
+  {
+    "id": "009",
+    "ref": "ckl-09",
+    "cantidad": 10,
+    "tipo": "camisa",
+    "precio": 500
+  },
+  {
+    "id": "010",
+    "ref": "ckl-10",
+    "cantidad": 10,
+    "tipo": "camisa",
+    "precio": 500
+  },
+  {
+    "id": "011",
+    "ref": "ckl-11",
+    "cantidad": 10,
+    "tipo": "pantalon",
+    "precio": 500
+  },
+  {
+    "id": "012",
+    "ref": "ckl-12",
+    "cantidad": 10,
+    "tipo": "pantalon",
+    "precio": 500
+  },
+  {
+    "id": "013",
+    "ref": "ckl-13",
+    "cantidad": 10,
+    "tipo": "pantalon",
+    "precio": 500
+  },
+  {
+    "id": "014",
+    "ref": "ckl-14",
+    "cantidad": 10,
+    "tipo": "pantalon",
+    "precio": 500
+  },
+  {
+    "id": "015",
+    "ref": "ckl-15",
+    "cantidad": 10,
+    "tipo": "pantalon",
+    "precio": 500
+  }
+
+]
